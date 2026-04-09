@@ -19,6 +19,7 @@
                    margin-top:9.25px;
                    margin-bottom:19.86px;
                 }      
+                
 
         .star {
             color: gold;
@@ -125,7 +126,7 @@
     .mid-section {
     width: 1920px;
     height: 300px;
-    background-color: red;
+    border:2px solid red;
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -136,15 +137,28 @@
     .choice-container{
     height:251.255px ;
     width:398px;
-    background-color: blue;
-
+    display: flex;
+    flex-direction: column; 
+   gap: 10px;
     }
 
     .teams-container{
-    height:251.255px;
-    width:223px;
-    background-color: green;
+    height:400px;
+    width:223px; 
+    background-color: green; 
    margin-right: 193px;
+  display: flex;
+  flex-direction: column; 
+  gap:10px;
+
+    }
+
+    .team{
+     border-radius: 15px;
+background: #C87788;
+width: 223.285px;
+height: 150.583px;
+
 
     }
 
@@ -159,7 +173,28 @@
 
     .choice {
     height: 60px;
-    width:411px;
+    width:411px;                                                                                        
     background-color: #FFFFFFBF;
+font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113%; 
+
+    }
+
+    .choice-name{
+     margin-left: 13.78px;
+
+    }
+
+    .amount{
+    font-size: 45px;
+    color: white;
+    }
+
+    .top{
+    background-color: #FFDEE5;
+    width: 223.285px;
+height: 60px; 
 
     }
